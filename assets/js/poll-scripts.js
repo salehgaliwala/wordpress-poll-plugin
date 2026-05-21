@@ -119,7 +119,7 @@
         if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(shortcode).then(function() {
                 var original = $(this).text();
-                $(this).text('Copied!');
+                $(this).text(ctsPollVars.copiedText || 'Copied!');
                 var self = this;
                 setTimeout(function() {
                     $(self).text(original);
@@ -136,7 +136,7 @@
             try {
                 document.execCommand('copy');
                 var original = $(this).text();
-                $(this).text('Copied!');
+                $(this).text(ctsPollVars.copiedText || 'Copied!');
                 setTimeout(function() {
                     $(this).text(original);
                 }.bind(this), 2000);

@@ -60,13 +60,15 @@ final class CTS_Poll {
 		register_activation_hook( __FILE__, array( __CLASS__, 'activate' ) );
 		register_deactivation_hook( __FILE__, array( __CLASS__, 'deactivate' ) );
 
-		add_action( 'plugins_loaded', array( $this, 'load_classes' ) );
+		add_action( 'plugins_loaded', array( $this, 'load_classes' ), 1 );
 	}
 
 	/**
-	 * Load plugin classes and enqueues.
+	 * Load text domain then plugin classes and enqueues.
 	 */
 	public function load_classes() {
+		load_plugin_textdomain( 'cts-poll', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+
 		CTS_Poll_Post_Type::init();
 		CTS_Poll_Meta_Boxes::init();
 		CTS_Poll_Shortcodes::init();
@@ -106,6 +108,7 @@ final class CTS_Poll {
 				'errorMessage'     => __( 'An error occurred. Please try again.', 'cts-poll' ),
 				'noVotesMessage'   => __( 'No votes yet.', 'cts-poll' ),
 				'totalVotesText'   => __( 'Total votes:', 'cts-poll' ),
+				'copiedText'       => __( 'Copied!', 'cts-poll' ),
 			)
 		);
 	}

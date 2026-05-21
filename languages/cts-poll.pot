@@ -1,0 +1,225 @@
+# Copyright (C) 2026 CTS
+# This file is distributed under the same license as the CTS Daily Poll plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: CTS Daily Poll 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.com/cts-poll\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-21T12:00:00+00:00\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: cts-poll.php:105
+msgid "Please select an option."
+msgstr ""
+
+#: cts-poll.php:106
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: cts-poll.php:107
+msgid "No votes yet."
+msgstr ""
+
+#: cts-poll.php:108
+msgid "Total votes:"
+msgstr ""
+
+#: cts-poll.php:109
+msgid "Copied!"
+msgstr ""
+
+#: includes/class-cts-poll-post-type.php:27
+msgid "Polls"
+msgstr ""
+
+#: includes/class-cts-poll-post-type.php:28
+msgid "Poll"
+msgstr ""
+
+#: includes/class-cts-poll-post-type.php:29
+msgid "Add New Poll"
+msgstr ""
+
+#: includes/class-cts-poll-post-type.php:30
+msgid "Add New Poll"
+msgstr ""
+
+#: includes/class-cts-poll-post-type.php:31
+msgid "Edit Poll"
+msgstr ""
+
+#: includes/class-cts-poll-post-type.php:32
+msgid "New Poll"
+msgstr ""
+
+#: includes/class-cts-poll-post-type.php:33
+msgid "View Poll"
+msgstr ""
+
+#: includes/class-cts-poll-post-type.php:34
+msgid "Search Polls"
+msgstr ""
+
+#: includes/class-cts-poll-post-type.php:35
+msgid "No polls found"
+msgstr ""
+
+#: includes/class-cts-poll-post-type.php:36
+msgid "No polls found in Trash"
+msgstr ""
+
+#: includes/class-cts-poll-post-type.php:37
+msgid "All Polls"
+msgstr ""
+
+#: includes/class-cts-poll-post-type.php:38
+msgid "Daily Polls"
+msgstr ""
+
+#: includes/class-cts-poll-meta-boxes.php:29
+msgid "Poll Settings"
+msgstr ""
+
+#: includes/class-cts-poll-meta-boxes.php:61
+msgid "Poll Question"
+msgstr ""
+
+#: includes/class-cts-poll-meta-boxes.php:66
+msgid "The question displayed to voters."
+msgstr ""
+
+#: includes/class-cts-poll-meta-boxes.php:71
+msgid "Poll Options"
+msgstr ""
+
+#: includes/class-cts-poll-meta-boxes.php:78
+msgid "Option"
+msgstr ""
+
+#: includes/class-cts-poll-meta-boxes.php:82
+msgid "Add Option"
+msgstr ""
+
+#: includes/class-cts-poll-meta-boxes.php:87
+msgid "Poll Date"
+msgstr ""
+
+#: includes/class-cts-poll-meta-boxes.php:92
+msgid "The date this poll is tied to. Only one poll per date."
+msgstr ""
+
+#: includes/class-cts-poll-meta-boxes.php:97
+msgid "Active"
+msgstr ""
+
+#: includes/class-cts-poll-meta-boxes.php:103
+msgid "Accept votes for this poll"
+msgstr ""
+
+#: includes/class-cts-poll-shortcodes.php:101
+msgid "No active poll available."
+msgstr ""
+
+#: includes/class-cts-poll-shortcodes.php:113
+msgid "This poll has no options configured."
+msgstr ""
+
+#: includes/class-cts-poll-shortcodes.php:146
+msgid "Vote"
+msgstr ""
+
+#: includes/class-cts-poll-shortcodes.php:197
+msgid "No completed polls found."
+msgstr ""
+
+#: includes/class-cts-poll-shortcodes.php:205
+msgid "Date"
+msgstr ""
+
+#: includes/class-cts-poll-shortcodes.php:206
+msgid "Question"
+msgstr ""
+
+#: includes/class-cts-poll-shortcodes.php:207
+msgid "Winner"
+msgstr ""
+
+#: includes/class-cts-poll-shortcodes.php:208
+msgid "Total Votes"
+msgstr ""
+
+#: includes/class-cts-poll-shortcodes.php:338
+msgid "No votes yet."
+msgstr ""
+
+#: includes/class-cts-poll-shortcodes.php:362
+msgid "Total votes: %s"
+msgstr ""
+
+#: includes/class-cts-poll-ajax.php:32
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-cts-poll-ajax.php:39
+msgid "Invalid poll or option."
+msgstr ""
+
+#: includes/class-cts-poll-ajax.php:45
+msgid "Poll not found."
+msgstr ""
+
+#: includes/class-cts-poll-ajax.php:50
+msgid "This poll is no longer accepting votes."
+msgstr ""
+
+#: includes/class-cts-poll-ajax.php:56
+msgid "Invalid option selected."
+msgstr ""
+
+#: includes/class-cts-poll-ajax.php:61
+msgid "You have already voted on this poll."
+msgstr ""
+
+#: includes/class-cts-poll-ajax.php:78
+msgid "You are voting too quickly. Please slow down."
+msgstr ""
+
+#: includes/class-cts-poll-ajax.php:140
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-cts-poll-ajax.php:145
+msgid "Invalid poll."
+msgstr ""
+
+#: includes/class-cts-poll-admin.php:39
+msgid "Poll Date"
+msgstr ""
+
+#: includes/class-cts-poll-admin.php:40
+msgid "Status"
+msgstr ""
+
+#: includes/class-cts-poll-admin.php:41
+msgid "Votes"
+msgstr ""
+
+#: includes/class-cts-poll-admin.php:42
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-cts-poll-admin.php:65
+msgid "Active"
+msgstr ""
+
+#: includes/class-cts-poll-admin.php:67
+msgid "Closed"
+msgstr ""
+
+#: includes/class-cts-poll-admin.php:122
+msgid "Copy Shortcode"
+msgstr ""
